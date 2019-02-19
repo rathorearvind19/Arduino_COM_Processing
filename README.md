@@ -18,8 +18,13 @@ Requirements:
 Please refer to these papers for more details on the measurement setup. 
 
 [1] A. Singh, M. Kar, S. Mathew, A. Rajan, V. De, S. Mukhopadhyay, "25.3 A 128-bit AES Engine with Higher Resistance to Power & Electromagnetic Side-Channel Attacks Enabled by a Security-Aware Integrated All-Digital Low Dropout Regulator", IEEE International Solid-State Circuits Conference (ISSCC), 2019. 
+
 [2] M. Kar, A. Singh, S. K. Mathew, A. Rajan, V. De and S. Mukhopadhyay, "Reducing Power Side-Channel Information Leakage of AES Engines Using Fully Integrated Inductive Voltage Regulator," in IEEE Journal of Solid-State Circuits, vol. 53, no. 8, pp. 2399-2414, Aug. 2018.
+
 [3] M. Kar, A. Singh, S. Mathew, A. Rajan, V. De and S. Mukhopadhyay, "8.1 Improved power-side-channel-attack resistance of an AES-128 core via a security-aware integrated buck voltage regulator," 2017 IEEE International Solid-State Circuits Conference (ISSCC), San Francisco, CA, 2017, pp. 142-143.
+
 [4] A. Singh, M. Kar, S. K. Mathew, A. Rajan, V. De and S. Mukhopadhyay, "Improved Power/EM Side-Channel Attack Resistance of 128-Bit AES Engines With Random Fast Voltage Dithering," in IEEE Journal of Solid-State Circuits.
+
 [5] A. Singh, M. Kar, S. Mathew, A. Rajan, V. De and S. Mukhopadhyay, "Improved power side channel attack resistance of a 128-bit AES engine with random fast voltage dithering," ESSCIRC 2017 - 43rd IEEE European Solid State Circuits Conference, Leuven, 2017, pp. 51-54.
+
   

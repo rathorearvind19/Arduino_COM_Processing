@@ -71,14 +71,9 @@ void loop() {
     } else if (dvfs_count%40==30) {
       int mode_cntrl=3;   writeMSPI(mode_cntrl); // 0=normal, 1=SNI, 2=RVREF, 3=SNI+R-VREF;
     }
-//      Serial.print(countx);
-//      Serial.print("Received");
       dvfs_count=dvfs_count+1;
       Serial.print("\n");
-//      writeMSPI();
-//      delay(10);
       resetA();
-//      byte config_adr; byte config_data;
     config_adr = B00000001; config_data = B11000000; spi_out(config_adr, config_data); digitalChipWait(); //clkpostdiv(2'b11), clkdiv(2'b11), clken(2'b00), sdo_control(2'b00).
     config_adr = B00000010; config_data = B00000101; spi_out(config_adr, config_data); digitalChipWait(); //none (2'b00), EncRd5 (1) or EncRd9 (0), rd_config_en, en_adaptclk, clkrstb (1'b1), enc_dec, rd_key_data.
     config_adr = B00000100; config_data = B00000000; spi_out(config_adr, config_data); digitalChipWait(); // none  (4'00), cfg_attack_byte(config2[3:0]
